@@ -77,10 +77,7 @@
 		11DF35DF23B65AEB009874FE /* ios-project-example */ = {
 			isa = PBXGroup;
 			children = (
-				11DF35E023B65AEB009874FE /* AppDelegate.swift */,
-				11DF35E223B65AEB009874FE /* SceneDelegate.swift */,
-				11DF35EC23B65AED009874FE /* Assets.xcassets */,
-				11DF360523B669FE009874FE /* LaunchScreen.storyboard */,
+				11DF360723B6732B009874FE /* Application */,
 				11DF35F123B65AED009874FE /* Info.plist */,
 				11DF35E923B65AEB009874FE /* ios_project_example.xcdatamodeld */,
 			);
@@ -94,6 +91,17 @@
 				11DF35FC23B65AED009874FE /* Info.plist */,
 			);
 			path = "ios-project-exampleTests";
+			sourceTree = "<group>";
+		};
+		11DF360723B6732B009874FE /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				11DF35E023B65AEB009874FE /* AppDelegate.swift */,
+				11DF35E223B65AEB009874FE /* SceneDelegate.swift */,
+				11DF35EC23B65AED009874FE /* Assets.xcassets */,
+				11DF360523B669FE009874FE /* LaunchScreen.storyboard */,
+			);
+			path = Application;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
