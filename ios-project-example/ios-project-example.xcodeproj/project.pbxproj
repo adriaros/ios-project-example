@@ -26,7 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		11DF35DD23B65AEB009874FE /* ios-project-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-project-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11DF35DD23B65AEB009874FE /* iOSPE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSPE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11DF35E023B65AEB009874FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11DF35E223B65AEB009874FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		11DF35EA23B65AEB009874FE /* ios_project_example.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ios_project_example.xcdatamodel; sourceTree = "<group>"; };
@@ -68,7 +68,7 @@
 		11DF35DE23B65AEB009874FE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				11DF35DD23B65AEB009874FE /* ios-project-example.app */,
+				11DF35DD23B65AEB009874FE /* iOSPE.app */,
 				11DF35F623B65AED009874FE /* ios-project-exampleTests.xctest */,
 			);
 			name = Products;
@@ -113,7 +113,7 @@
 			);
 			name = "ios-project-example";
 			productName = "ios-project-example";
-			productReference = 11DF35DD23B65AEB009874FE /* ios-project-example.app */;
+			productReference = 11DF35DD23B65AEB009874FE /* iOSPE.app */;
 			productType = "com.apple.product-type.application";
 		};
 		11DF35F523B65AED009874FE /* ios-project-exampleTests */ = {
@@ -349,7 +349,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "adriaros.ios-project-example";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = iOSPE;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -367,7 +367,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "adriaros.ios-project-example";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = iOSPE;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
