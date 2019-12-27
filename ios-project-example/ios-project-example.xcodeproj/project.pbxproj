@@ -9,12 +9,10 @@
 /* Begin PBXBuildFile section */
 		11DF35E123B65AEB009874FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DF35E023B65AEB009874FE /* AppDelegate.swift */; };
 		11DF35E323B65AEB009874FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DF35E223B65AEB009874FE /* SceneDelegate.swift */; };
-		11DF35E523B65AEB009874FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DF35E423B65AEB009874FE /* ViewController.swift */; };
-		11DF35E823B65AEB009874FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11DF35E623B65AEB009874FE /* Main.storyboard */; };
 		11DF35EB23B65AEB009874FE /* ios_project_example.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 11DF35E923B65AEB009874FE /* ios_project_example.xcdatamodeld */; };
 		11DF35ED23B65AED009874FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11DF35EC23B65AED009874FE /* Assets.xcassets */; };
-		11DF35F023B65AED009874FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11DF35EE23B65AED009874FE /* LaunchScreen.storyboard */; };
 		11DF35FB23B65AED009874FE /* ios_project_exampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DF35FA23B65AED009874FE /* ios_project_exampleTests.swift */; };
+		11DF360623B669FF009874FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11DF360523B669FE009874FE /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,15 +29,13 @@
 		11DF35DD23B65AEB009874FE /* ios-project-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-project-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11DF35E023B65AEB009874FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11DF35E223B65AEB009874FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		11DF35E423B65AEB009874FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		11DF35E723B65AEB009874FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		11DF35EA23B65AEB009874FE /* ios_project_example.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ios_project_example.xcdatamodel; sourceTree = "<group>"; };
 		11DF35EC23B65AED009874FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		11DF35EF23B65AED009874FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11DF35F123B65AED009874FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11DF35F623B65AED009874FE /* ios-project-exampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-project-exampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11DF35FA23B65AED009874FE /* ios_project_exampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_project_exampleTests.swift; sourceTree = "<group>"; };
 		11DF35FC23B65AED009874FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11DF360523B669FE009874FE /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,10 +79,8 @@
 			children = (
 				11DF35E023B65AEB009874FE /* AppDelegate.swift */,
 				11DF35E223B65AEB009874FE /* SceneDelegate.swift */,
-				11DF35E423B65AEB009874FE /* ViewController.swift */,
-				11DF35E623B65AEB009874FE /* Main.storyboard */,
 				11DF35EC23B65AED009874FE /* Assets.xcassets */,
-				11DF35EE23B65AED009874FE /* LaunchScreen.storyboard */,
+				11DF360523B669FE009874FE /* LaunchScreen.storyboard */,
 				11DF35F123B65AED009874FE /* Info.plist */,
 				11DF35E923B65AEB009874FE /* ios_project_example.xcdatamodeld */,
 			);
@@ -183,9 +177,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11DF35F023B65AED009874FE /* LaunchScreen.storyboard in Resources */,
 				11DF35ED23B65AED009874FE /* Assets.xcassets in Resources */,
-				11DF35E823B65AEB009874FE /* Main.storyboard in Resources */,
+				11DF360623B669FF009874FE /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,7 +197,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				11DF35EB23B65AEB009874FE /* ios_project_example.xcdatamodeld in Sources */,
-				11DF35E523B65AEB009874FE /* ViewController.swift in Sources */,
 				11DF35E123B65AEB009874FE /* AppDelegate.swift in Sources */,
 				11DF35E323B65AEB009874FE /* SceneDelegate.swift in Sources */,
 			);
@@ -227,25 +219,6 @@
 			targetProxy = 11DF35F723B65AED009874FE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		11DF35E623B65AEB009874FE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				11DF35E723B65AEB009874FE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		11DF35EE23B65AED009874FE /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				11DF35EF23B65AED009874FE /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		11DF35FD23B65AED009874FE /* Debug */ = {
