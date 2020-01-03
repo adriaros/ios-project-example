@@ -11,6 +11,7 @@ import UIKit
 
 ///This File (main.swift) is the responsible of switching the appDelegate depending on debug, release or test mode. This is the first module to be executed
 class TestingAppDelegate: UIResponder, UIApplicationDelegate {
+    
     var window: UIWindow?
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]? ) -> Bool {
@@ -19,6 +20,6 @@ class TestingAppDelegate: UIResponder, UIApplicationDelegate {
     }
 }
 
-let isRunningTests = ProcessInfo.processInfo.environment["UNIT_TEST"] != nil
+let isRunningTests = ProcessInfo.processInfo.environment["UNIT_TESTS"] != nil
 let appDelegateClass = isRunningTests ? NSStringFromClass(TestingAppDelegate.self) : NSStringFromClass(AppDelegate.self)
 UIApplicationMain(CommandLine.argc, CommandLine.unsafeArgv, nil, appDelegateClass)

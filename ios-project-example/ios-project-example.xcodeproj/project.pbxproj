@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11A3B63923BFDD7000AFAAFE /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A3B63823BFDD7000AFAAFE /* Coordinator.swift */; };
+		11A3B64B23BFF2B800AFAAFE /* WelcomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A3B64523BFF2B800AFAAFE /* WelcomePresenter.swift */; };
+		11A3B64C23BFF2B800AFAAFE /* WelcomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A3B64623BFF2B800AFAAFE /* WelcomeRouter.swift */; };
+		11A3B64D23BFF2B800AFAAFE /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A3B64723BFF2B800AFAAFE /* WelcomeViewController.swift */; };
+		11A3B64E23BFF2B800AFAAFE /* WelcomeProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A3B64823BFF2B800AFAAFE /* WelcomeProtocols.swift */; };
+		11A3B64F23BFF2B800AFAAFE /* WelcomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A3B64923BFF2B800AFAAFE /* WelcomeInteractor.swift */; };
+		11A3B65023BFF2B800AFAAFE /* WelcomeEntities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A3B64A23BFF2B800AFAAFE /* WelcomeEntities.swift */; };
+		11A3B65223BFF5A300AFAAFE /* WelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11A3B65123BFF5A300AFAAFE /* WelcomeViewController.xib */; };
 		11DF35E123B65AEB009874FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DF35E023B65AEB009874FE /* AppDelegate.swift */; };
 		11DF35E323B65AEB009874FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DF35E223B65AEB009874FE /* SceneDelegate.swift */; };
 		11DF35EB23B65AEB009874FE /* ios_project_example.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 11DF35E923B65AEB009874FE /* ios_project_example.xcdatamodeld */; };
 		11DF35ED23B65AED009874FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11DF35EC23B65AED009874FE /* Assets.xcassets */; };
 		11DF360623B669FF009874FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11DF360523B669FE009874FE /* LaunchScreen.storyboard */; };
-		11DF361123B7E1F6009874FE /* iOSPE_Unit_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DF361023B7E1F6009874FE /* iOSPE_Unit_Tests.swift */; };
+		11DF361123B7E1F6009874FE /* CoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DF361023B7E1F6009874FE /* CoordinatorTests.swift */; };
 		11FD30E823B7E71000F55560 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FD30E723B7E71000F55560 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +35,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11A3B63823BFDD7000AFAAFE /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		11A3B64523BFF2B800AFAAFE /* WelcomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePresenter.swift; sourceTree = "<group>"; };
+		11A3B64623BFF2B800AFAAFE /* WelcomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeRouter.swift; sourceTree = "<group>"; };
+		11A3B64723BFF2B800AFAAFE /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		11A3B64823BFF2B800AFAAFE /* WelcomeProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeProtocols.swift; sourceTree = "<group>"; };
+		11A3B64923BFF2B800AFAAFE /* WelcomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeInteractor.swift; sourceTree = "<group>"; };
+		11A3B64A23BFF2B800AFAAFE /* WelcomeEntities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeEntities.swift; sourceTree = "<group>"; };
+		11A3B65123BFF5A300AFAAFE /* WelcomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WelcomeViewController.xib; sourceTree = "<group>"; };
 		11DF35DD23B65AEB009874FE /* iOSPE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSPE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11DF35E023B65AEB009874FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11DF35E223B65AEB009874FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,7 +51,7 @@
 		11DF35F123B65AED009874FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11DF360523B669FE009874FE /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11DF360E23B7E1F6009874FE /* iOSPE-Unit-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOSPE-Unit-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		11DF361023B7E1F6009874FE /* iOSPE_Unit_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSPE_Unit_Tests.swift; sourceTree = "<group>"; };
+		11DF361023B7E1F6009874FE /* CoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorTests.swift; sourceTree = "<group>"; };
 		11DF361223B7E1F6009874FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11FD30E723B7E71000F55560 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +74,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11A3B63723BFDD2E00AFAAFE /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				11A3B63823BFDD7000AFAAFE /* Coordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		11A3B64223BFF1BC00AFAAFE /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				11A3B64323BFF1CC00AFAAFE /* Main */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		11A3B64323BFF1CC00AFAAFE /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				11A3B64423BFF29E00AFAAFE /* Welcome */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		11A3B64423BFF29E00AFAAFE /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				11A3B64723BFF2B800AFAAFE /* WelcomeViewController.swift */,
+				11A3B64523BFF2B800AFAAFE /* WelcomePresenter.swift */,
+				11A3B64923BFF2B800AFAAFE /* WelcomeInteractor.swift */,
+				11A3B64623BFF2B800AFAAFE /* WelcomeRouter.swift */,
+				11A3B64823BFF2B800AFAAFE /* WelcomeProtocols.swift */,
+				11A3B64A23BFF2B800AFAAFE /* WelcomeEntities.swift */,
+				11A3B65123BFF5A300AFAAFE /* WelcomeViewController.xib */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		11A3B65323BFFB7A00AFAAFE /* CoordinatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				11DF361023B7E1F6009874FE /* CoordinatorTests.swift */,
+			);
+			path = CoordinatorTests;
+			sourceTree = "<group>";
+		};
 		11DF35D423B65AEB009874FE = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +141,8 @@
 		11DF35DF23B65AEB009874FE /* ios-project-example */ = {
 			isa = PBXGroup;
 			children = (
+				11A3B64223BFF1BC00AFAAFE /* Modules */,
+				11A3B63723BFDD2E00AFAAFE /* Coordinator */,
 				11DF360723B6732B009874FE /* Application */,
 				11DF35F123B65AED009874FE /* Info.plist */,
 				11DF35E923B65AEB009874FE /* ios_project_example.xcdatamodeld */,
@@ -101,7 +165,7 @@
 		11DF360F23B7E1F6009874FE /* iOSPE-Unit-Tests */ = {
 			isa = PBXGroup;
 			children = (
-				11DF361023B7E1F6009874FE /* iOSPE_Unit_Tests.swift */,
+				11A3B65323BFFB7A00AFAAFE /* CoordinatorTests */,
 				11DF361223B7E1F6009874FE /* Info.plist */,
 			);
 			path = "iOSPE-Unit-Tests";
@@ -190,6 +254,7 @@
 			files = (
 				11DF35ED23B65AED009874FE /* Assets.xcassets in Resources */,
 				11DF360623B669FF009874FE /* LaunchScreen.storyboard in Resources */,
+				11A3B65223BFF5A300AFAAFE /* WelcomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,8 +272,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11A3B64C23BFF2B800AFAAFE /* WelcomeRouter.swift in Sources */,
+				11A3B64D23BFF2B800AFAAFE /* WelcomeViewController.swift in Sources */,
 				11DF35EB23B65AEB009874FE /* ios_project_example.xcdatamodeld in Sources */,
 				11DF35E123B65AEB009874FE /* AppDelegate.swift in Sources */,
+				11A3B63923BFDD7000AFAAFE /* Coordinator.swift in Sources */,
+				11A3B64B23BFF2B800AFAAFE /* WelcomePresenter.swift in Sources */,
+				11A3B65023BFF2B800AFAAFE /* WelcomeEntities.swift in Sources */,
+				11A3B64E23BFF2B800AFAAFE /* WelcomeProtocols.swift in Sources */,
+				11A3B64F23BFF2B800AFAAFE /* WelcomeInteractor.swift in Sources */,
 				11FD30E823B7E71000F55560 /* main.swift in Sources */,
 				11DF35E323B65AEB009874FE /* SceneDelegate.swift in Sources */,
 			);
@@ -218,7 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11DF361123B7E1F6009874FE /* iOSPE_Unit_Tests.swift in Sources */,
+				11DF361123B7E1F6009874FE /* CoordinatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,15 +11,19 @@ import UIKit
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
+    var coordinator: CoordinatorProtocol?
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        guard let windowScene = (scene as? UIWindowScene) else { return }
+        if !isRunningTests { setupMainScene(scene: scene as? UIWindowScene) }
+    }
+    
+    private func setupMainScene(scene: UIWindowScene?) {
+        guard let windowScene = scene else { return }
         window = UIWindow(frame: windowScene.coordinateSpace.bounds)
         window?.windowScene = windowScene
-        let vc = UIViewController()
-        vc.view.backgroundColor = .red
-        window?.rootViewController = vc
-        window?.makeKeyAndVisible()
+        coordinator = Coordinator(window: window)
+        let vc = WelcomeRouter.createModule(coordinator: coordinator) as? WelcomeViewController
+        coordinator?.transition(to: vc, type: .launch)
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
