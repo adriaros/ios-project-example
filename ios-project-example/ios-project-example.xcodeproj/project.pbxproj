@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11196DAB23C1F181004EEBE5 /* Coordinator.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11196DAA23C1F181004EEBE5 /* Coordinator.xcassets */; };
 		11A3B63923BFDD7000AFAAFE /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A3B63823BFDD7000AFAAFE /* Coordinator.swift */; };
 		11A3B64B23BFF2B800AFAAFE /* WelcomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A3B64523BFF2B800AFAAFE /* WelcomePresenter.swift */; };
 		11A3B64C23BFF2B800AFAAFE /* WelcomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A3B64623BFF2B800AFAAFE /* WelcomeRouter.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11196DAA23C1F181004EEBE5 /* Coordinator.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Coordinator.xcassets; sourceTree = "<group>"; };
 		11A3B63823BFDD7000AFAAFE /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		11A3B64523BFF2B800AFAAFE /* WelcomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePresenter.swift; sourceTree = "<group>"; };
 		11A3B64623BFF2B800AFAAFE /* WelcomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeRouter.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				11A3B63823BFDD7000AFAAFE /* Coordinator.swift */,
+				11196DAA23C1F181004EEBE5 /* Coordinator.xcassets */,
 			);
 			path = Coordinator;
 			sourceTree = "<group>";
@@ -252,6 +255,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11196DAB23C1F181004EEBE5 /* Coordinator.xcassets in Resources */,
 				11DF35ED23B65AED009874FE /* Assets.xcassets in Resources */,
 				11DF360623B669FF009874FE /* LaunchScreen.storyboard in Resources */,
 				11A3B65223BFF5A300AFAAFE /* WelcomeViewController.xib in Resources */,
@@ -426,12 +430,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 0;
 				DEVELOPMENT_TEAM = JGR9WTFVLU;
 				INFOPLIST_FILE = "ios-project-example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "adriaros.ios-project-example";
 				PRODUCT_NAME = iOSPE;
 				SWIFT_VERSION = 5.0;
@@ -444,12 +450,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 0;
 				DEVELOPMENT_TEAM = JGR9WTFVLU;
 				INFOPLIST_FILE = "ios-project-example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "adriaros.ios-project-example";
 				PRODUCT_NAME = iOSPE;
 				SWIFT_VERSION = 5.0;

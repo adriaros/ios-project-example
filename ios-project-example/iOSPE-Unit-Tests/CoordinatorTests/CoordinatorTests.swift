@@ -34,6 +34,9 @@ class CoordinatorTests: XCTestCase {
         sut?.transition(to: vc, type: .launch)
         
         // Then
-        XCTAssertTrue(window?.rootViewController == vc)
+        XCTAssertTrue(window?.rootViewController is WelcomeViewController)
+        XCTAssertTrue(window?.rootViewController?.navigationItem.leftBarButtonItem == nil)
+        XCTAssertTrue(window?.rootViewController?.navigationItem.rightBarButtonItem == nil)
+        XCTAssertTrue(window?.rootViewController?.navigationItem.title == nil)
     }
 }
