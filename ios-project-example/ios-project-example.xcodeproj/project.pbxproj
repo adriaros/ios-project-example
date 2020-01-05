@@ -437,7 +437,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.1.4;
 				PRODUCT_BUNDLE_IDENTIFIER = "adriaros.ios-project-example";
 				PRODUCT_NAME = iOSPE;
 				SWIFT_VERSION = 5.0;
@@ -457,7 +457,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.1.4;
 				PRODUCT_BUNDLE_IDENTIFIER = "adriaros.ios-project-example";
 				PRODUCT_NAME = iOSPE;
 				SWIFT_VERSION = 5.0;
