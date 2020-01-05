@@ -23,6 +23,7 @@
 		11DF360623B669FF009874FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11DF360523B669FE009874FE /* LaunchScreen.storyboard */; };
 		11DF361123B7E1F6009874FE /* CoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DF361023B7E1F6009874FE /* CoordinatorTests.swift */; };
 		11FD30E823B7E71000F55560 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FD30E723B7E71000F55560 /* main.swift */; };
+		D9D9C6CC146DF649EC9AB9F7 /* Pods_ios_project_example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9682193C9959C0ED000066A4 /* Pods_ios_project_example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,9 @@
 		11DF361023B7E1F6009874FE /* CoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorTests.swift; sourceTree = "<group>"; };
 		11DF361223B7E1F6009874FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11FD30E723B7E71000F55560 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		33F4FC92B0186B529EB439D2 /* Pods-ios-project-example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-project-example.release.xcconfig"; path = "Target Support Files/Pods-ios-project-example/Pods-ios-project-example.release.xcconfig"; sourceTree = "<group>"; };
+		9682193C9959C0ED000066A4 /* Pods_ios_project_example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_project_example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC9E06E953456CCF7A3FCBB1 /* Pods-ios-project-example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-project-example.debug.xcconfig"; path = "Target Support Files/Pods-ios-project-example/Pods-ios-project-example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9D9C6CC146DF649EC9AB9F7 /* Pods_ios_project_example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +134,8 @@
 				11DF35DF23B65AEB009874FE /* ios-project-example */,
 				11DF360F23B7E1F6009874FE /* iOSPE-Unit-Tests */,
 				11DF35DE23B65AEB009874FE /* Products */,
+				789A33D1CE79BB7E75EBA702 /* Pods */,
+				E6AED12BE1A9904449114C49 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -174,6 +181,23 @@
 			path = "iOSPE-Unit-Tests";
 			sourceTree = "<group>";
 		};
+		789A33D1CE79BB7E75EBA702 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC9E06E953456CCF7A3FCBB1 /* Pods-ios-project-example.debug.xcconfig */,
+				33F4FC92B0186B529EB439D2 /* Pods-ios-project-example.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E6AED12BE1A9904449114C49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9682193C9959C0ED000066A4 /* Pods_ios_project_example.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -181,6 +205,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 11DF35FF23B65AED009874FE /* Build configuration list for PBXNativeTarget "ios-project-example" */;
 			buildPhases = (
+				08B84099EFF81956E40A4383 /* [CP] Check Pods Manifest.lock */,
 				11DF35D923B65AEB009874FE /* Sources */,
 				11DF35DA23B65AEB009874FE /* Frameworks */,
 				11DF35DB23B65AEB009874FE /* Resources */,
@@ -270,6 +295,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08B84099EFF81956E40A4383 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ios-project-example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		11DF35D923B65AEB009874FE /* Sources */ = {
@@ -427,6 +477,7 @@
 		};
 		11DF360023B65AED009874FE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC9E06E953456CCF7A3FCBB1 /* Pods-ios-project-example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -437,7 +488,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1.4;
+				MARKETING_VERSION = 1.2.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "adriaros.ios-project-example";
 				PRODUCT_NAME = iOSPE;
 				SWIFT_VERSION = 5.0;
@@ -447,6 +498,7 @@
 		};
 		11DF360123B65AED009874FE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33F4FC92B0186B529EB439D2 /* Pods-ios-project-example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -457,7 +509,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1.4;
+				MARKETING_VERSION = 1.2.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "adriaros.ios-project-example";
 				PRODUCT_NAME = iOSPE;
 				SWIFT_VERSION = 5.0;
