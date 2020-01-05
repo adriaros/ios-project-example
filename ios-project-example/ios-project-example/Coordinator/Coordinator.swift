@@ -18,9 +18,9 @@ protocol CoordinatorProtocol {
 
 final class Coordinator: CoordinatorProtocol {
     
-    let window: UIWindow?
-    var navigationControler: UINavigationController?
-    var currentViewController: UIViewController?
+    private let window: UIWindow?
+    private var navigationControler: UINavigationController?
+    private var currentViewController: UIViewController?
     
     init(window: UIWindow?) {
         self.window = window
