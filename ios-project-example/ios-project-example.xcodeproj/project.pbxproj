@@ -187,7 +187,6 @@
 				AC9E06E953456CCF7A3FCBB1 /* Pods-ios-project-example.debug.xcconfig */,
 				33F4FC92B0186B529EB439D2 /* Pods-ios-project-example.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -489,7 +488,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1.4;
+				MARKETING_VERSION = 1.2.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "adriaros.ios-project-example";
 				PRODUCT_NAME = iOSPE;
 				SWIFT_VERSION = 5.0;
@@ -510,7 +509,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1.4;
+				MARKETING_VERSION = 1.2.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "adriaros.ios-project-example";
 				PRODUCT_NAME = iOSPE;
 				SWIFT_VERSION = 5.0;
